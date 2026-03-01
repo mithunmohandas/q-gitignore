@@ -46,3 +46,5 @@ pytest tests/ -v
 ## License
 
 MIT
+
+[![CI](https://github.com/mithunmohandas/q-gitignore/actions/workflows/ci.yml/badge.svg)](https://github.com/mithunmohandas/q-gitignore/actions/workflows/ci.yml)
