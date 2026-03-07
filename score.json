@@ -30,5 +30,7 @@
 "brief_met": true,
 "model_default_escaped": true,
 "exhibition_worthy": true,
-"one_line_verdict": "A masterclass in affective visualization that brilliantly uses physical weight, material distress, and volume to communicate structural inequality."
+"one_line_verdict": "A masterclass in affective visualization that brilliantly uses physical weight, material distress, and volume to communicate structural inequality.", 
+"publish_email": true
+
 }
