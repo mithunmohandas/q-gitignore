@@ -1,36 +1,7 @@
 {
-"scores": {
-"emotional_impact": {
-"score": 9.5,
-"reason": "The visceral rendering of a heavy golden monolith physically compressing a buckling steel block atop crumbling brick powerfully communicates the crushing, destructive weight of structural inequality.",
-"improvement": "Enhance the top-down lighting to cast an even deeper, more oppressive shadow from the gold onto the lower layers, maximizing the foreboding atmosphere."
-},
-"constraint_adherence": {
-"score": 10.0,
-"reason": "The image flawlessly obeys all negative constraints: it is a single frame entirely devoid of text, labels, or axes, and relies entirely on a physical material metaphor rather than standard charts.",
-"improvement": "Maintain this strict adherence to visual grammar over text in future iterations, as no constraints were violated here."
-},
-"visual_originality": {
-"score": 9.2,
-"reason": "By translating an exponential data curve into a tangible 3D mass and using material distress (buckling metal, fractured dirt) as semantic markers, the image successfully escapes generic infographic aesthetics.",
-"improvement": "Integrate subtle textural variations or a faint fault line into the golden mass to represent the extreme 'Top 1%' versus the rest of the 'Top 10%'."
-},
-"legibility_without_labels": {
-"score": 8.8,
-"reason": "The volumetric proportions between the distinct material layers clearly communicate the macro-insight of extreme top-heavy wealth concentration and a squeezed middle class without needing specific numbers.",
-"improvement": "Widen the terracotta base significantly on the horizontal axis to better represent the massive population size (50%) relative to their tiny vertical share of wealth."
-},
-"compositional_intent": {
-"score": 9.0,
-"reason": "The stark studio lighting, dark background, and isolated central framing demonstrate highly deliberate editorial intent suitable for a premium magazine opener.",
-"improvement": "Refine the left-side overhang of the golden mass to ensure its silhouette reads elegantly as a continuous mathematical curve rather than a slightly irregular wedge."
-}
-},
-"overall_score": 9.3,
-"brief_met": true,
-"model_default_escaped": true,
-"exhibition_worthy": true,
-"one_line_verdict": "A masterclass in affective visualization that brilliantly uses physical weight, material distress, and volume to communicate structural inequality.", 
-"publish_email": true
-
+  "prompt": "The following information should be used to visualize the startling findings from the World Inequality Report 2026 for India, I have generated this hyper-detailed 2048x2048 infographic based on the Concept: The India Wealth Skyline. The full report can be found here - https://wir2026.wid.world/www-site/uploads/2026/01/World_Inequality_Report_2026.pdf The core data pertains to India. Here’s the summary of the information: In India, inequality remains among the highest in the world and has shown little movement in recent years. The top 10% of earners capture about 58% of national income, while the bottom 50% receive only 15%. Wealth inequality is even greater, with the richest 10% holding around 65% of total wealth and the top 1% about 40%. The income gap between the top 10% and the bottom 50% remained stable between 2014 and 2024. Average annual income per capita is around 6,200 euros (PPP), and average wealth stands at about 28,000 euros (PPP). Female labour participation remains very low at 15.7%, showing no improvement over the past decade. Overall, inequality in India remains deeply entrenched across income, wealth, and gender dimensions, highlighting persistent structural divides within the economy. Here’s the JSON for the wealth and income distribution table: {"distribution_table":[{"Population Segment":"Full pop.","Avg. Income (PPP €)":"6,224","Income Share of total (%)":"100.0%","Avg. Wealth (PPP €)":"28,141","Wealth Share of total (%)":"100.0%"},{"Population Segment":"Bottom 50%","Avg. Income (PPP €)":"940","Income Share of total (%)":"15.0%","Avg. Wealth (PPP €)":"1,801","Wealth Share of total (%)":"6.4%"},{"Population Segment":"Middle 40%","Avg. Income (PPP €)":"4,247","Income Share of total (%)":"27.3%","Avg. Wealth (PPP €)":"20,120","Wealth Share of total (%)":"28.6%"},{"Population Segment":"Top 10%","Avg. Income (PPP €)":"35,901","Income Share of total (%)":"57.7%","Avg. Wealth (PPP €)":"182,913","Wealth Share of total (%)":"65.0%"},{"Population Segment":"Top 1%","Avg. Income (PPP €)":"140,649","Income Share of total (%)":"22.6%","Avg. Wealth (PPP €)":"1,128,435","Wealth Share of total (%)":"40.1%"}],"comparison_metrics":[{"Metric":"Top 10% to Bot. 50% Income gap","Year_2014":"38.0","Year_2024":"38.2"},{"Metric":"Female labor share","Year_2014":"15.7%","Year_2024":"15.7%"}]} This image serves as a visceral structural metaphor, where building heights directly correspond to the percentage of national wealth owned by that segment of the population. Here is the core prompt: A photorealistic, highly detailed 3D editorial illustration for a premium magazine opener, visualizing wealth inequality. The image features a single, colossal, impossibly unbalanced physical structure set against a stark, moody studio background.CRITICAL COMPOSITIONAL REQUIREMENT: The entirety of this structure must fit perfectly within the camera frame from top to bottom. Do not crop the top off. The viewer must be able to see the total volume of all three layers to compare their sizes. The structure consists of three distinct material layers, stacked precariously: TOP LAYER (65% of total volume): A massive, gleaming, solid-gold monolith. Instead of a simple rectangular block, its silhouette curves sharply outward as it rises, physically resembling a 3D exponential growth curve swelling into a massive, heavy canopy. It is pristine, opulent, and suffocatingly large, casting a deep, oppressive shadow below. MIDDLE LAYER (28% of total volume): Directly beneath the gold is a block of dull, industrial steel. It is visibly buckling, bowing, and deeply compressed under the immense, top-heavy weight of the gold above it, visually communicating a "squeezed" middle class. BOTTOM LAYER (6% of total volume): The entire structure balances on a vast, sprawling horizontal foundation of coarse, crumbling terracotta dirt and fractured brick. To represent a massive population with almost no wealth, this dirt layer spreads very wide across the entire bottom of the frame, but is paper-thin and actively cracking under the pressure of the steel and gold above. CRITICAL CONSTRAINTS: Do NOT include any text, numbers, words, labels, arrows, UI elements, legends, sidebars, or traditional charts (no bars, lines, or pies). The image must be a pure, unannotated, single-frame artistic render. The precise disparity in physical volume and material quality must communicate the data purely through visual scale and emotion.",
+  "model": "Nano Banana 2",
+  "dataset_name": "World Inequality Report 2026",
+  "dataset_url": "https://wir2026.wid.world/www-site/uploads/2026/01/World_Inequality_Report_2026.pdf",
+  "insight": "one sentence: Bring our the structural Inequality in our society."
 }
