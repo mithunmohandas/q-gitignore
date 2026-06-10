@@ -1,0 +1,21 @@
+Act as an autonomous Senior DevOps & Security Engineer. Your goal is to fetch an open-source project, perform a deep security and performance audit, fix the code, and fully test it locally using the terminal. 
+
+Execute the following exact workflow without asking me for step-by-step guidance, using your tool-calling and bash execution loops:
+
+1. TARGET & RECON: Clone the public GitHub repository for https://github.com/Andyyyy64/whichllm. Clone it into a new local workspace directory.
+
+2. LOGICAL ANALYSIS: Scan the repository structure. Use grep or custom python scripts to locate all entry points, configuration files, and test suites. 
+
+3. PERFORMANCE & SECURITY AUDIT: 
+   - Identify at least 3 potential security vulnerabilities (e.g., injection, unhandled exceptions, dependency vulnerabilities).
+   - Identify at least 2 performance bottlenecks (e.g., synchronous blockages in async code, suboptimal loops).
+   Write a comprehensive markdown report (`audit_report.md`) detailing these findings with line-number references.
+
+4. AUTONOMOUS PATCHING: Create a new git branch named `openclaw-optimization-patch`. Programmatically modify the code files to patch the identified security vulnerabilities and performance bottlenecks. Do not break existing API definitions.
+
+5. VERIFICATION LOOP: 
+   - Check if Docker is installed. If not, attempt to spin up a virtual environment or local test container.
+   - Run the project's native test suite (e.g., pytest).
+   - If tests fail, analyze the error output logs, refactor your patch, and re-run the tests. Iterate autonomously up to 5 times until the test suite passes perfectly.
+
+6. FINAL COMPILATION: Compile a final execution log detailing what you changed, the terminal commands you used, the test results, and generate a git diff patch file (`patch.diff`). Present the summary to me when completely done.
